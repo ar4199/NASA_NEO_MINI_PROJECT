@@ -1,12 +1,11 @@
 # NASA_NEO_MINI_PROJECT
-# NASA NEO Mini Project
 
 This project retrieves, processes, and stores Near-Earth Object (NEO) data using NASA's public API, and demonstrates how to store the results in a local MySQL database for further analysis.
 
 ## Overview
 
 The Jupyter Notebook (`nasa_neo_project.ipynb`) automates the following tasks:
-- Fetches NEO data for a given date range using the NASA API.
+- Fetches Near Earth Object data for a given date range using the NASA API.
 - Parses and organises asteroid data, including physical properties and close approach details.
 - Stores the processed data in a local MySQL database, with separate tables for asteroid properties and close approach data.
 - Demonstrates simple querying of the database to view stored results.
